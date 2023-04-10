@@ -1,0 +1,473 @@
+------------------ Message\WiFi ------------------
+
+> filename: MessageVVWiFi_Kacper.pcapng
+Summary: -versions> TLS 1.2 : 47  TLS 1.0 : 0  
+         -content> Application Data : 46  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: MessageWifi2_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 14:04:38.013845 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:34:14.013845 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 14:04:37.926979 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:34:13.926979 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 48  TLS 1.0 : 2  
+         -content> Application Data : 36  Change Cipher Spec : 4  Handshake : 10  
+
+> filename: MessageWifi3_Kacper.pcapng
+Summary: -versions> TLS 1.2 : 35  TLS 1.0 : 0  
+         -content> Application Data : 35  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: MessageWiFi_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:163 days, 6:59:43.294292 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:msgapi.teams.microsoft.com
+	     2 -TTL:454 days, 2:39:01.294292 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+Summary: -versions> TLS 1.2 : 41  TLS 1.0 : 1  
+         -content> Application Data : 35  Change Cipher Spec : 2  Handshake : 5  
+
+------------------ Message\Ethernet ------------------
+
+> filename: MessageEthernet2_Kacper.pcapng
+Summary: -versions> TLS 1.2 : 26  TLS 1.0 : 0  
+         -content> Application Data : 26  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: MessageEthernet_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:56:46.473961 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:21:01.473961 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 40  TLS 1.0 : 1  
+         -content> Application Data : 34  Change Cipher Spec : 2  Handshake : 5  
+
+> filename: MessageVVEthernet_Kacper.pcapng
+Summary: -versions> TLS 1.2 : 93  TLS 1.0 : 0  
+         -content> Application Data : 92  Change Cipher Spec : 0  Handshake : 0  
+
+------------------ CallAudio\WiFi ------------------
+
+> filename: AudioTerminatedWifi_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:57:12.834718 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:55:53.834718 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:15:08.664767 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:55:52.664767 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:31:33.784897 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:55:48.784897 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:31:55.258664 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:55:41.258664 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:26:04.253156 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:55:40.253156 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 70  TLS 1.0 : 10  
+         -content> Application Data : 36  Change Cipher Spec : 10  Handshake : 34  
+
+> filename: AudioWifi2_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:55:04.875005 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:45.875005 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:13:00.666783 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:53:44.666783 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:55:03.621645 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:44.621645 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:23:56.281872 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:53:32.281872 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 103  TLS 1.0 : 9  
+         -content> Application Data : 70  Change Cipher Spec : 10  Handshake : 32  
+
+> filename: AudioWiFi_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 1:01:37.874811 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 9:00:18.874811 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:19:28.451505 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 2:00:12.451505 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:35:51.451527 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:00:06.451527 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 94  TLS 1.0 : 1  
+         -content> Application Data : 68  Change Cipher Spec : 8  Handshake : 19  
+
+> filename: MissedCallWiFi_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:52:58.273780 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:51:39.273780 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:52:56.903319 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:51:37.903319 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:21:31.096239 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:51:07.096239 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 54  TLS 1.0 : 0  
+         -content> Application Data : 33  Change Cipher Spec : 6  Handshake : 15  
+
+------------------ CallAudio\Ethernet ------------------
+
+> filename: AudioCallEthernet2_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:45:58.583870 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:44:39.583870 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:03:54.317227 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:44:38.317227 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:15:02.148258 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:44:38.148258 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:14:51.908627 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:44:27.908627 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 98  TLS 1.0 : 10  
+         -content> Application Data : 66  Change Cipher Spec : 10  Handshake : 32  
+
+> filename: AudioCallEthernet_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:48:43.989420 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:47:24.989420 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 11:08:18.467753 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:47:16.467753 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:06:32.445960 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:47:16.445960 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 5:04:32.214075 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:47:16.214075 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:23:24.900654 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:47:10.900654 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+Summary: -versions> TLS 1.2 : 111  TLS 1.0 : 3  
+         -content> Application Data : 78  Change Cipher Spec : 10  Handshake : 26  
+
+> filename: MissedCall_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:43:59.853195 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:42:40.853195 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 4:59:19.193273 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:42:03.193273 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 91  TLS 1.0 : 8  
+         -content> Application Data : 71  Change Cipher Spec : 6  Handshake : 22  
+
+------------------ CallVideo\WiFi ------------------
+
+> filename: VideoCallWiFi2_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:32:31.752622 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:31:12.752622 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 18:50:27.404315 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:31:11.404315 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:32:30.447176 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:31:11.447176 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:07:12.049779 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:30:58.049779 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 4:48:13.028662 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:30:57.028662 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 111  TLS 1.0 : 9  
+         -content> Application Data : 70  Change Cipher Spec : 12  Handshake : 38  
+
+> filename: VideoCallWiFi_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:35:14.649102 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:33:55.649102 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:135 days, 20:38:22.364782 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:teams.microsoft.com
+	     2 -TTL:454 days, 1:33:54.364782 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 10:32:57.392108 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:33:48.392108 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 18:53:03.570072 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:33:47.570072 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:09:23.496100 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:33:38.496100 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:09:53.482261 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:33:39.482261 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:09:53.479293 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:33:39.479293 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+Summary: -versions> TLS 1.2 : 138  TLS 1.0 : 3  
+         -content> Application Data : 89  Change Cipher Spec : 14  Handshake : 38  
+
+------------------ CallVideo\Ethernet ------------------
+
+> filename: VideoCallEthernet2_Kacper.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:28:42.573381 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:27:23.573381 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:03:28.994651 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:27:14.994651 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 12:57:37.978822 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:27:13.978822 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 102  TLS 1.0 : 9  
+         -content> Application Data : 69  Change Cipher Spec : 10  Handshake : 32  
+
+> filename: VideoCallEthernet3_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:26:59.170771 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:25:40.170771 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:01:41.104443 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:25:27.104443 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:01:41.099856 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:25:27.099856 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:01:11.068535 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:25:26.068535 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 100  TLS 1.0 : 0  
+         -content> Application Data : 70  Change Cipher Spec : 8  Handshake : 22  
+
+> filename: VideoCallEthernet_Kacper.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:30:47.329775 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:29:28.329775 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 10:44:14.529638 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:29:23.529638 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 18:48:39.359606 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:29:23.359606 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2
+	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 4:46:39.113781 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:29:23.113781 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:05:01.101566 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:29:16.101566 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.2 : 121  TLS 1.0 : 3  
+         -content> Application Data : 77  Change Cipher Spec : 14  Handshake : 33  
+
+
+
+------------------ SUMMARY ------------------
+|
+|	All the issuers> 
+|		(31) DigiCert Global Root G2
+|		(27) Microsoft Azure TLS Issuing CA 01
+|		(23) Microsoft RSA TLS CA 02
+|		(23) Baltimore CyberTrust Root
+|		(2) Microsoft Azure TLS Issuing CA 06
+|		(2) Microsoft Azure TLS Issuing CA 05
+|	All the subjects> 
+|		(27) Microsoft Azure TLS Issuing CA 01
+|		(23) Microsoft RSA TLS CA 02
+|		(18) *.events.data.microsoft.com
+|		(15) *.flightproxy.teams.microsoft.com
+|		(8) loki.delve.office.com
+|		(8) cdn.aiinfrastructure.teams.microsoft.com
+|		(3) presence.teams.microsoft.com
+|		(2) Microsoft Azure TLS Issuing CA 06
+|		(2) Microsoft Azure TLS Issuing CA 05
+|		(1) msgapi.teams.microsoft.com
+|		(1) teams.microsoft.com
+|	All the cipher used> 
+|		(63) TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+|		(24) TLS_DH_anon_WITH_RC4_128_MD5
+|
+------------------ END SUMMARY ------------------
