@@ -1,89 +1,327 @@
------------------- Message\WiFi ------------------
+------------------ Message - WiFi ------------------
 
-> filename: MessageVVWiFi_Kacper.pcapng
-Summary: -versions> TLS 1.2 : 47  TLS 1.0 : 0  
-         -content> Application Data : 46  Change Cipher Spec : 0  Handshake : 0  
-
-> filename: MessageWifi2_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 14:04:38.013845 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 2:34:14.013845 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 14:04:37.926979 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 2:34:13.926979 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 48  TLS 1.0 : 2  
-         -content> Application Data : 36  Change Cipher Spec : 4  Handshake : 10  
-
-> filename: MessageWifi3_Kacper.pcapng
-Summary: -versions> TLS 1.2 : 35  TLS 1.0 : 0  
-         -content> Application Data : 35  Change Cipher Spec : 0  Handshake : 0  
-
-> filename: MessageWiFi_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+> filename: K1MW.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:163 days, 6:59:43.294292 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:msgapi.teams.microsoft.com
 	     2 -TTL:454 days, 2:39:01.294292 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
-Summary: -versions> TLS 1.2 : 41  TLS 1.0 : 1  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 41  TLS 1.0 : 1  
          -content> Application Data : 35  Change Cipher Spec : 2  Handshake : 5  
 
------------------- Message\Ethernet ------------------
+> filename: K2MW.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 14:04:38.013845 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:34:14.013845 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 14:04:37.926979 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:34:13.926979 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 48  TLS 1.0 : 2  
+         -content> Application Data : 36  Change Cipher Spec : 4  Handshake : 10  
 
-> filename: MessageEthernet2_Kacper.pcapng
-Summary: -versions> TLS 1.2 : 26  TLS 1.0 : 0  
+> filename: K3MW.pcapng
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 35  TLS 1.0 : 0  
+         -content> Application Data : 35  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: K4MWB.pcapng
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 47  TLS 1.0 : 0  
+         -content> Application Data : 46  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: Q1MW.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:161 days, 2:27:54.484749 -issuer:Microsoft RSA TLS CA 01 -subject:*.msn.com
+	     2 -TTL:556 days, 9:34:08.484749 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:127 days, 20:48:19.348274 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:assets.msn.com
+	     2 -TTL:454 days, 2:34:07.348274 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:127 days, 20:48:17.587499 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:assets.msn.com
+	     2 -TTL:454 days, 2:34:05.587499 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:127 days, 20:48:17.587499 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:assets.msn.com
+	     2 -TTL:454 days, 2:34:05.587499 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 
+	- Certificate - TLS 1.2
+	     1 -TTL:91 days, 2:34:05.404314 -issuer:DigiCert TLS RSA SHA256 2020 CA1 -subject:a248.e.akamai.net
+	     2 -TTL:2935 days, 2:34:05.404314 -issuer:DigiCert Global Root CA -subject:DigiCert TLS RSA SHA256 2020 CA1
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.388577 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.388577 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.336789 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.336789 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.326732 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.326732 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.322667 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.322667 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.318917 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.318917 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:228 days, 22:50:44.314869 -issuer:Microsoft RSA TLS CA 01 -subject:r.bing.com
+	     2 -TTL:556 days, 9:34:06.314869 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 16:09:44.523082 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:33:59.523082 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 346  TLS 1.0 : 1  
+         -content> Application Data : 233  Change Cipher Spec : 24  Handshake : 90  
+
+> filename: Q3MW.pcapng
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 26  TLS 1.0 : 0  
          -content> Application Data : 26  Change Cipher Spec : 0  Handshake : 0  
 
-> filename: MessageEthernet_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+> filename: Q4MWB.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:163 days, 6:29:01.955899 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:msgapi.teams.microsoft.com
+	     2 -TTL:454 days, 2:08:19.955899 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:43:42.856144 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:07:57.856144 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 230  TLS 1.0 : 2  
+         -content> Application Data : 204  Change Cipher Spec : 8  Handshake : 18  
+
+------------------ Message - Ethernet ------------------
+
+> filename: K1ME.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 15:56:46.473961 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 2:21:01.473961 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 40  TLS 1.0 : 1  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 40  TLS 1.0 : 1  
          -content> Application Data : 34  Change Cipher Spec : 2  Handshake : 5  
 
-> filename: MessageVVEthernet_Kacper.pcapng
-Summary: -versions> TLS 1.2 : 93  TLS 1.0 : 0  
+> filename: K2ME.pcapng
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 26  TLS 1.0 : 0  
+         -content> Application Data : 26  Change Cipher Spec : 0  Handshake : 0  
+
+> filename: K3MEB.pcapng
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 93  TLS 1.0 : 0  
          -content> Application Data : 92  Change Cipher Spec : 0  Handshake : 0  
 
------------------- CallAudio\WiFi ------------------
+------------------ Message - 4G ------------------
 
-> filename: AudioTerminatedWifi_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+> filename: K1MG.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+Summary: -versions> TLS 1.3 : 1  TLS 1.2 : 35  TLS 1.0 : 1  
+         -content> Application Data : 18  Change Cipher Spec : 2  Handshake : 2  
+
+> filename: K2MG.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:139 days, 20:33:45.976312 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:presence.skype.com
+	     2 -TTL:444 days, 7:16:23.976312 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 24  TLS 1.0 : 1  
+         -content> Application Data : 18  Change Cipher Spec : 2  Handshake : 5  
+
+> filename: K3MG.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:153 days, 11:40:50.166541 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:msgapi.teams.live.com
+	     2 -TTL:444 days, 7:14:39.166541 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:17:21.907479 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:14:37.907479 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:17:21.654874 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:14:37.654874 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+Summary: -versions> TLS 1.3 : 1  TLS 1.2 : 101  TLS 1.0 : 4  
+         -content> Application Data : 28  Change Cipher Spec : 8  Handshake : 17  
+
+> filename: K4MG.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:153 days, 11:38:01.705114 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:msgapi.teams.live.com
+	     2 -TTL:444 days, 7:11:50.705114 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 69  TLS 1.0 : 2  
+         -content> Application Data : 52  Change Cipher Spec : 4  Handshake : 13  
+
+------------------ CallAudio - WiFi ------------------
+
+> filename: K1AW.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 1:01:37.874811 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 9:00:18.874811 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:19:28.451505 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 2:00:12.451505 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:35:51.451527 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 2:00:06.451527 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 94  TLS 1.0 : 1  
+         -content> Application Data : 68  Change Cipher Spec : 8  Handshake : 19  
+
+> filename: K2AW-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:54:39.991083 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:35:23.991083 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:36:43.991083 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:35:24.991083 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:54:39.931315 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:35:23.931315 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 13:26:39.594978 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:35:23.594978 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:36:42.345796 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:35:23.345796 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:125 days, 7:39:48.791741 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:teams.microsoft.com
+	     2 -TTL:443 days, 12:35:20.791741 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 0:04:40.832588 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:34:16.832588 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 1  TLS 1.2 : 254  TLS 1.0 : 15  
+         -content> Application Data : 112  Change Cipher Spec : 16  Handshake : 48  
+
+> filename: K2AW.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:55:04.875005 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:45.875005 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:13:00.666783 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:53:44.666783 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:55:03.621645 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:44.621645 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:23:56.281872 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:53:32.281872 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 103  TLS 1.0 : 9  
+         -content> Application Data : 70  Change Cipher Spec : 10  Handshake : 32  
+
+> filename: K3AW-LeaveBeforeResponse.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:57:12.834718 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:55:53.834718 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:147 days, 19:15:08.664767 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
 	     2 -TTL:454 days, 1:55:52.664767 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 15:31:33.784897 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:55:48.784897 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:304 days, 13:31:55.258664 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
@@ -92,209 +330,760 @@ Summary: -versions> TLS 1.2 : 93  TLS 1.0 : 0
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 13:26:04.253156 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:55:40.253156 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 70  TLS 1.0 : 10  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 70  TLS 1.0 : 10  
          -content> Application Data : 36  Change Cipher Spec : 10  Handshake : 34  
 
-> filename: AudioWifi2_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
-	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
-	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
-	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
-	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 0:55:04.875005 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 8:53:45.875005 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:147 days, 19:13:00.666783 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
-	     2 -TTL:454 days, 1:53:44.666783 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 0:55:03.621645 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 8:53:44.621645 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 13:23:56.281872 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 1:53:32.281872 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 103  TLS 1.0 : 9  
-         -content> Application Data : 70  Change Cipher Spec : 10  Handshake : 32  
-
-> filename: AudioWiFi_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 1:01:37.874811 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 9:00:18.874811 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:147 days, 19:19:28.451505 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
-	     2 -TTL:454 days, 2:00:12.451505 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 15:35:51.451527 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 2:00:06.451527 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 94  TLS 1.0 : 1  
-         -content> Application Data : 68  Change Cipher Spec : 8  Handshake : 19  
-
-> filename: MissedCallWiFi_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+> filename: K4AW-MissedCall.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:52:58.273780 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:51:39.273780 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:52:56.903319 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:51:37.903319 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 13:21:31.096239 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:51:07.096239 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 54  TLS 1.0 : 0  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 54  TLS 1.0 : 0  
          -content> Application Data : 33  Change Cipher Spec : 6  Handshake : 15  
 
------------------- CallAudio\Ethernet ------------------
+> filename: Q1AW.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:19:24.506881 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 2:00:08.506881 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 1:01:28.126120 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 9:00:09.126120 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:36:11.482070 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:59:57.482070 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 5:17:12.475699 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:59:56.475699 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 92  TLS 1.0 : 9  
+         -content> Application Data : 64  Change Cipher Spec : 8  Handshake : 29  
 
-> filename: AudioCallEthernet2_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+> filename: Q2AW.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:54:54.348200 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:35.348200 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:54:53.070620 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:53:34.070620 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 11:08:18.639178 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:53:27.639178 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:12:43.146023 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:53:27.146023 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:23:50.903869 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:53:26.903869 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 13:23:45.200538 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:53:21.200538 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 113  TLS 1.0 : 3  
+         -content> Application Data : 68  Change Cipher Spec : 14  Handshake : 34  
+
+> filename: Q4AW-MissedCall.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:52:48.654679 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:51:29.654679 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:52:46.998149 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:51:27.998149 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:26:54.857170 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:51:09.857170 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:27:04.989042 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:50:50.989042 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 5:08:05.986341 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:50:49.986341 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 117  TLS 1.0 : 9  
+         -content> Application Data : 81  Change Cipher Spec : 10  Handshake : 34  
+
+------------------ CallAudio - Ethernet ------------------
+
+> filename: K1AE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:33:42.819989 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:32:23.819989 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 2:08:02.718914 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:32:17.718914 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 0:01:41.081084 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:31:17.081084 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 115  TLS 1.0 : 9  
+         -content> Application Data : 94  Change Cipher Spec : 6  Handshake : 23  
+
+> filename: K1AE.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:48:43.989420 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:47:24.989420 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 11:08:18.467753 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:47:16.467753 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 19:06:32.445960 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:47:16.445960 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 5:04:32.214075 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:47:16.214075 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:304 days, 13:23:24.900654 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:47:10.900654 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 111  TLS 1.0 : 3  
+         -content> Application Data : 78  Change Cipher Spec : 10  Handshake : 26  
+
+> filename: K2AE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:31:50.452417 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:30:31.452417 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:172 days, 6:29:35.448491 -issuer:Microsoft Secure Server CA 2011 -subject:*.events.data.microsoft.com
+	     2 -TTL:1286 days, 11:35:38.448491 -issuer:Microsoft Root Certificate Authority 2011 -subject:Microsoft Secure Server CA 2011
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:59:49.703191 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:29:25.703191 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 112  TLS 1.0 : 8  
+         -content> Application Data : 91  Change Cipher Spec : 6  Handshake : 23  
+
+> filename: K2AE.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:45:58.583870 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:44:39.583870 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:147 days, 19:03:54.317227 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
 	     2 -TTL:454 days, 1:44:38.317227 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 13:15:02.148258 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:44:38.148258 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 13:14:51.908627 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:44:27.908627 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 98  TLS 1.0 : 10  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 98  TLS 1.0 : 10  
          -content> Application Data : 66  Change Cipher Spec : 10  Handshake : 32  
 
-> filename: AudioCallEthernet_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+> filename: K3AE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 0:48:43.989420 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 8:47:24.989420 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:203 days, 11:30:07.896422 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:28:48.896422 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:159 days, 11:08:18.467753 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:presence.teams.microsoft.com
-	     2 -TTL:454 days, 1:47:16.467753 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:203 days, 11:30:06.343941 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:28:47.343941 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:147 days, 19:06:32.445960 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
-	     2 -TTL:454 days, 1:47:16.445960 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:325 days, 13:19:34.455814 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:28:18.455814 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 5:04:32.214075 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 1:47:16.214075 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Certificate - TLS 1.2
-	     1 -TTL:304 days, 13:23:24.900654 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
-	     2 -TTL:556 days, 8:47:10.900654 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-Summary: -versions> TLS 1.2 : 111  TLS 1.0 : 3  
-         -content> Application Data : 78  Change Cipher Spec : 10  Handshake : 26  
+	     1 -TTL:326 days, 2:03:24.108096 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:27:39.108096 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 109  TLS 1.0 : 9  
+         -content> Application Data : 82  Change Cipher Spec : 8  Handshake : 28  
 
-> filename: MissedCall_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+> filename: K3AE-MissedCall.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:43:59.853195 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:42:40.853195 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 4:59:19.193273 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:42:03.193273 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 91  TLS 1.0 : 8  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 91  TLS 1.0 : 8  
          -content> Application Data : 71  Change Cipher Spec : 6  Handshake : 22  
 
------------------- CallVideo\WiFi ------------------
+------------------ CallAudio - 4G ------------------
 
-> filename: VideoCallWiFi2_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+> filename: K1AG.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 7:14:24.369387 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 14:09:58.369387 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:40:20.983999 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:56.983999 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:40:20.737251 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:56.737251 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:12:30.702709 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:46.702709 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:12:30.167273 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:46.167273 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:12:30.080262 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:46.080262 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:12:23.630274 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:39.630274 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 16:12:23.098708 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:09:39.098708 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+Summary: -versions> TLS 1.3 : 2  TLS 1.2 : 372  TLS 1.0 : 22  
+         -content> Application Data : 255  Change Cipher Spec : 20  Handshake : 57  
+
+> filename: K2AG-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:43:45.601197 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:08:00.601197 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:43:45.282088 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:08:00.282088 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 7:12:25.708041 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 14:07:59.708041 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:51 days, 21:34:41.176648 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:*.msedge.net
+	     2 -TTL:444 days, 7:07:58.176648 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:25:08.188655 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:07:52.188655 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:25:07.912287 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:07:51.912287 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:292 days, 6:18:38.880744 -issuer:Microsoft RSA TLS CA 02 -subject:config.officeapps.live.com
+	     2 -TTL:546 days, 14:07:51.880744 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:25:00.929176 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:07:44.929176 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:25:00.664238 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:07:44.664238 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 
+	- Certificate - TLS 1.2
+	     1 -TTL:17 days, 7:06:53.699330 -issuer:DigiCert TLS RSA SHA256 2020 CA1 -subject:*.mwbsys.com
+	     2 -TTL:2925 days, 7:06:53.699330 -issuer:DigiCert Global Root CA -subject:DigiCert TLS RSA SHA256 2020 CA1
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+Summary: -versions> TLS 1.3 : 2  TLS 1.2 : 623  TLS 1.0 : 23  
+         -content> Application Data : 434  Change Cipher Spec : 40  Handshake : 110  
+
+> filename: K3AG-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:106 days, 7:03:48.243251 -issuer:DigiCert Cloud Services CA-1 -subject:outlook.com
+	     2 -TTL:2724 days, 7:03:48.243251 -issuer:DigiCert Global Root CA -subject:DigiCert Cloud Services CA-1
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:51 days, 21:30:30.959548 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:*.msedge.net
+	     2 -TTL:444 days, 7:03:47.959548 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:39:31.147092 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:46.147092 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:39:30.978903 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:45.978903 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:39:30.184679 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:45.184679 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 7:08:10.840896 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 14:03:44.840896 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:10.841152 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:38.841152 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:10.591016 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:38.591016 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:10.164947 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:38.164947 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:09.948989 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:37.948989 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:09.731381 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:37.731381 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:03.844080 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:31.844080 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 21:10:02.960732 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 7:03:30.960732 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+Summary: -versions> TLS 1.3 : 2  TLS 1.2 : 461  TLS 1.0 : 26  
+         -content> Application Data : 307  Change Cipher Spec : 30  Handshake : 83  
+
+> filename: K4AG-60sec.pcapng
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:51 days, 21:16:24.573435 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:*.msedge.net
+	     2 -TTL:444 days, 6:49:41.573435 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 6:54:02.124994 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:49:36.124994 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:56:05.533625 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:33.533625 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:56:05.386001 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:33.386001 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:56:04.876136 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:32.876136 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:56:04.669635 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:32.669635 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:56:04.195445 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:32.195445 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:55:58.108679 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:26.108679 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 6:53:52.386941 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:49:26.386941 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 20:55:57.189179 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:25.189179 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:19:34.967277 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:49:10.967277 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:18:49.791802 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:48:25.791802 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 2  TLS 1.2 : 551  TLS 1.0 : 22  
+         -content> Application Data : 404  Change Cipher Spec : 28  Handshake : 76  
+
+------------------ CallVideo - WiFi ------------------
+
+> filename: K1VW-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:26:59.774014 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:25:40.774014 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:44:55.444225 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:25:39.444225 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:56:03.231986 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:25:39.231986 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:148 days, 21:40:26.279282 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:443 days, 12:25:35.279282 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:249 days, 12:25:27.665669 -issuer:DigiCert TLS RSA SHA256 2020 CA1 -subject:csp.microsoft.com
+	     2 -TTL:2924 days, 12:25:27.665669 -issuer:DigiCert Global Root CA -subject:DigiCert TLS RSA SHA256 2020 CA1
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 2:00:55.908922 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:25:10.908922 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:122 days, 7:52:02.364291 -issuer:Microsoft ECC Content Distribution Secure Server CA 2.1 -subject:*.prod.do.dsp.mp.microsoft.com
+	     2 -TTL:3893 days, 8:40:14.364291 -issuer:Microsoft ECC Product Root Certificate Authority 2018 -subject:Microsoft ECC Content Distribution Secure Server CA 2.1
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:54:57.905651 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:24:33.905651 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:294 days, 0:00:48.802074 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:545 days, 19:24:34.802074 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 173  TLS 1.0 : 13  
+         -content> Application Data : 113  Change Cipher Spec : 18  Handshake : 55  
+
+> filename: K2VW-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:23:00.324796 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:21:41.324796 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:40:56.205745 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:21:40.205745 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 15:38:55.971141 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:21:39.971141 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:22:59.005475 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:21:40.005475 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 15:38:27.535177 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:21:11.535177 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:21:52.606290 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:20:33.606290 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:50:56.530675 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:20:32.530675 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:293 days, 23:56:47.503190 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:545 days, 19:20:33.503190 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 150  TLS 1.0 : 11  
+         -content> Application Data : 96  Change Cipher Spec : 16  Handshake : 49  
+
+> filename: K2VW.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:32:31.752622 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:31:12.752622 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:147 days, 18:50:27.404315 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
 	     2 -TTL:454 days, 1:31:11.404315 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:32:30.447176 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:31:11.447176 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:304 days, 13:07:12.049779 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
@@ -304,73 +1093,190 @@ Summary: -versions> TLS 1.2 : 91  TLS 1.0 : 8
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 4:48:13.028662 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:30:57.028662 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 111  TLS 1.0 : 9  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 111  TLS 1.0 : 9  
          -content> Application Data : 70  Change Cipher Spec : 12  Handshake : 38  
 
-> filename: VideoCallWiFi_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+> filename: Q2VW.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 0:35:14.649102 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 8:33:55.649102 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:214 days, 0:32:20.773431 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:31:01.773431 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:135 days, 20:38:22.364782 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:teams.microsoft.com
-	     2 -TTL:454 days, 1:33:54.364782 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:147 days, 18:50:10.858435 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:30:54.858435 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:159 days, 10:32:57.392108 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
-	     2 -TTL:454 days, 1:33:48.392108 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:336 days, 13:01:18.291569 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:30:54.291569 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:147 days, 18:53:03.570072 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
-	     2 -TTL:454 days, 1:33:47.570072 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	     1 -TTL:159 days, 10:29:55.249089 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:30:46.249089 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 15:09:23.496100 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 1:33:38.496100 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	     1 -TTL:304 days, 13:07:00.389858 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:556 days, 8:30:46.389858 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:304 days, 13:09:53.482261 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
-	     2 -TTL:556 days, 8:33:39.482261 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	     1 -TTL:336 days, 15:06:30.365734 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:30:45.365734 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:304 days, 13:09:53.479293 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
-	     2 -TTL:556 days, 8:33:39.479293 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-Summary: -versions> TLS 1.2 : 138  TLS 1.0 : 3  
-         -content> Application Data : 89  Change Cipher Spec : 14  Handshake : 38  
+	     1 -TTL:336 days, 13:01:04.676051 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:30:40.676051 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:277 days, 1:30:39.889561 -issuer:DigiCert SHA2 Secure Server CA -subject:login.live.com
+	     2 -TTL:2732 days, 1:30:39.889561 -issuer:DigiCert Global Root CA -subject:DigiCert SHA2 Secure Server CA
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 157  TLS 1.0 : 4  
+         -content> Application Data : 98  Change Cipher Spec : 18  Handshake : 45  
 
------------------- CallVideo\Ethernet ------------------
+------------------ CallVideo - Ethernet ------------------
 
-> filename: VideoCallEthernet2_Kacper.pcapng
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+> filename: K1VE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.0 -max:TLS 1.0
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
 	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:20:45.403769 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:19:26.403769 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:148 days, 21:34:16.210828 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:443 days, 12:19:25.210828 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:38:41.195362 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:19:25.195362 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:49:49.012062 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:19:25.012062 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:49:20.507783 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:18:56.507783 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:293 days, 23:54:35.437312 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
+	     2 -TTL:545 days, 19:18:21.437312 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:48:44.429216 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:18:20.429216 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 143  TLS 1.0 : 12  
+         -content> Application Data : 97  Change Cipher Spec : 14  Handshake : 44  
+
+> filename: K1VE.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:214 days, 0:30:47.329775 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:556 days, 8:29:28.329775 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:159 days, 10:44:14.529638 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
+	     2 -TTL:454 days, 1:29:23.529638 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:147 days, 18:48:39.359606 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:454 days, 1:29:23.359606 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 4:46:39.113781 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:29:23.113781 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:336 days, 15:05:01.101566 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:454 days, 1:29:16.101566 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 121  TLS 1.0 : 3  
+         -content> Application Data : 77  Change Cipher Spec : 14  Handshake : 33  
+
+> filename: K2VE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:18:26.133658 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:17:07.133658 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:137 days, 5:36:22.103733 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
+	     2 -TTL:443 days, 12:17:06.103733 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:18:24.849386 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:17:05.849386 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 23:46:20.267678 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:15:56.267678 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 120  TLS 1.0 : 9  
+         -content> Application Data : 87  Change Cipher Spec : 10  Handshake : 32  
+
+> filename: K2VE.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:28:42.573381 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:27:23.573381 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:304 days, 13:03:28.994651 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
@@ -380,22 +1286,51 @@ Summary: -versions> TLS 1.2 : 138  TLS 1.0 : 3
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 12:57:37.978822 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:27:13.978822 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 102  TLS 1.0 : 9  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 102  TLS 1.0 : 9  
          -content> Application Data : 69  Change Cipher Spec : 10  Handshake : 32  
 
-> filename: VideoCallEthernet3_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+> filename: K3VE-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:16:40.812621 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:15:21.812621 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:203 days, 11:16:39.650451 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
+	     2 -TTL:545 days, 19:15:20.650451 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:325 days, 15:31:31.014144 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:443 days, 12:14:15.014144 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 109  TLS 1.0 : 8  
+         -content> Application Data : 82  Change Cipher Spec : 8  Handshake : 27  
+
+> filename: K3VE.pcapng
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:214 days, 0:26:59.170771 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
 	     2 -TTL:556 days, 8:25:40.170771 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:304 days, 13:01:41.104443 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
 	     2 -TTL:556 days, 8:25:27.104443 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
 	     1 -TTL:304 days, 13:01:41.099856 -issuer:Microsoft RSA TLS CA 02 -subject:cdn.aiinfrastructure.teams.microsoft.com
@@ -404,70 +1339,281 @@ Summary: -versions> TLS 1.2 : 102  TLS 1.0 : 9
 	- Certificate - TLS 1.2
 	     1 -TTL:336 days, 15:01:11.068535 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
 	     2 -TTL:454 days, 1:25:26.068535 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 100  TLS 1.0 : 0  
+Summary: -versions> TLS 1.3 : 0  TLS 1.2 : 100  TLS 1.0 : 0  
          -content> Application Data : 70  Change Cipher Spec : 8  Handshake : 22  
 
-> filename: VideoCallEthernet_Kacper.pcapng
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+------------------ CallVideo - 4G ------------------
+
+> filename: K1VG-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:214 days, 0:30:47.329775 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.teams.microsoft.com
-	     2 -TTL:556 days, 8:29:28.329775 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:204 days, 7:00:31.594849 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:56:05.594849 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:159 days, 10:44:14.529638 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:presence.teams.microsoft.com
-	     2 -TTL:454 days, 1:29:23.529638 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:149 days, 16:16:19.652088 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:presence.teams.microsoft.com
+	     2 -TTL:444 days, 6:55:17.652088 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+Summary: -versions> TLS 1.3 : 1  TLS 1.2 : 208  TLS 1.0 : 14  
+         -content> Application Data : 159  Change Cipher Spec : 8  Handshake : 28  
+
+> filename: K2VG-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:147 days, 18:48:39.359606 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:loki.delve.office.com
-	     2 -TTL:454 days, 1:29:23.359606 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.0 -max:TLS 1.2
-	     -supported_extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	     1 -TTL:326 days, 18:23:50.239332 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:53:26.239332 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 4:46:39.113781 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 1:29:23.113781 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-	- Client Hello -min:TLS 1.2 -max:TLS 1.2
+	     1 -TTL:326 days, 18:23:50.007209 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:53:26.007209 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
 	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
 	- Certificate - TLS 1.2
-	     1 -TTL:336 days, 15:05:01.101566 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
-	     2 -TTL:454 days, 1:29:16.101566 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
-Summary: -versions> TLS 1.2 : 121  TLS 1.0 : 3  
-         -content> Application Data : 77  Change Cipher Spec : 14  Handshake : 33  
+	     1 -TTL:326 days, 18:23:49.606866 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:53:25.606866 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 6:57:52.193077 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:53:26.193077 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:23:43.218562 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:53:19.218562 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 18:23:42.961765 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:53:18.961765 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:294 days, 6:24:39.838549 -issuer:Microsoft Azure TLS Issuing CA 06 -subject:arc.msn.com
+	     2 -TTL:444 days, 6:52:53.838549 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 06
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+Summary: -versions> TLS 1.3 : 3  TLS 1.2 : 568  TLS 1.0 : 20  
+         -content> Application Data : 416  Change Cipher Spec : 24  Handshake : 61  
+
+> filename: K3VG-60sec.pcapng
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:04:10.646414 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:54.646414 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 10:04:10.360769 -issuer:Microsoft Azure TLS Issuing CA 01 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:54.360769 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 01
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:51 days, 21:13:36.007585 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:*.msedge.net
+	     2 -TTL:444 days, 6:46:53.007585 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:51 days, 21:13:35.595856 -issuer:Microsoft Azure TLS Issuing CA 05 -subject:*.msedge.net
+	     2 -TTL:444 days, 6:46:52.595856 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 05
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.0 -No supported extension
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Server Hello - TLS 1.0 -cipher: TLS_DH_anon_WITH_RC4_128_MD5 
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 6:51:15.197536 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:46:49.197536 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 15:28:10.745457 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:43.745457 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 15:28:10.252390 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:43.252390 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:204 days, 6:51:05.852775 -issuer:Microsoft RSA TLS CA 02 -subject:*.flightproxy.skype.com
+	     2 -TTL:546 days, 13:46:39.852775 -issuer:Baltimore CyberTrust Root -subject:Microsoft RSA TLS CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 15:28:03.714938 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:36.714938 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+	- Certificate - TLS 1.2
+	     1 -TTL:326 days, 15:28:03.187910 -issuer:Microsoft Azure TLS Issuing CA 02 -subject:*.events.data.microsoft.com
+	     2 -TTL:444 days, 6:46:36.187910 -issuer:DigiCert Global Root G2 -subject:Microsoft Azure TLS Issuing CA 02
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.0 -max:TLS 1.2 -supported extension:['Reserved', 'TLS 1.3', 'TLS 1.2']
+	- Server Hello - TLS 1.2 -cipher: TLS_AES_256_GCM_SHA384 
+		 -supported extension:TLS 1.3
+	- Client Hello -min:TLS 1.2 -max:TLS 1.2 -No supported extension
+Summary: -versions> TLS 1.3 : 2  TLS 1.2 : 485  TLS 1.0 : 22  
+         -content> Application Data : 336  Change Cipher Spec : 27  Handshake : 75  
 
 
 
 ------------------ SUMMARY ------------------
 |
 |	All the issuers> 
-|		(31) DigiCert Global Root G2
-|		(27) Microsoft Azure TLS Issuing CA 01
-|		(23) Microsoft RSA TLS CA 02
-|		(23) Baltimore CyberTrust Root
-|		(2) Microsoft Azure TLS Issuing CA 06
-|		(2) Microsoft Azure TLS Issuing CA 05
+|	   >>>Message
+|			(15) DigiCert Global Root G2
+|			(8) Microsoft Azure TLS Issuing CA 01
+|			(7) Microsoft RSA TLS CA 01
+|			(7) Baltimore CyberTrust Root
+|			(3) Microsoft Azure TLS Issuing CA 06
+|			(2) Microsoft Azure TLS Issuing CA 05
+|			(2) Microsoft Azure TLS Issuing CA 02
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) DigiCert Global Root CA
+|	   >>>CallAudio
+|			(68) DigiCert Global Root G2
+|			(42) Microsoft Azure TLS Issuing CA 01
+|			(30) Microsoft RSA TLS CA 02
+|			(30) Baltimore CyberTrust Root
+|			(19) Microsoft Azure TLS Issuing CA 02
+|			(4) Microsoft Azure TLS Issuing CA 05
+|			(3) Microsoft Azure TLS Issuing CA 06
+|			(2) DigiCert Global Root CA
+|			(1) Microsoft Secure Server CA 2011
+|			(1) Microsoft Root Certificate Authority 2011
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) DigiCert Cloud Services CA-1
+|	   >>>CallVideo
+|			(45) DigiCert Global Root G2
+|			(33) Microsoft Azure TLS Issuing CA 01
+|			(27) Microsoft RSA TLS CA 02
+|			(27) Baltimore CyberTrust Root
+|			(6) Microsoft Azure TLS Issuing CA 05
+|			(4) Microsoft Azure TLS Issuing CA 02
+|			(2) DigiCert Global Root CA
+|			(2) Microsoft Azure TLS Issuing CA 06
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) Microsoft ECC Content Distribution Secure Server CA 2.1
+|			(1) Microsoft ECC Product Root Certificate Authority 2018
+|			(1) DigiCert SHA2 Secure Server CA
 |	All the subjects> 
-|		(27) Microsoft Azure TLS Issuing CA 01
-|		(23) Microsoft RSA TLS CA 02
-|		(18) *.events.data.microsoft.com
-|		(15) *.flightproxy.teams.microsoft.com
-|		(8) loki.delve.office.com
-|		(8) cdn.aiinfrastructure.teams.microsoft.com
-|		(3) presence.teams.microsoft.com
-|		(2) Microsoft Azure TLS Issuing CA 06
-|		(2) Microsoft Azure TLS Issuing CA 05
-|		(1) msgapi.teams.microsoft.com
-|		(1) teams.microsoft.com
+|	   >>>Message
+|			(8) Microsoft Azure TLS Issuing CA 01
+|			(7) *.events.data.microsoft.com
+|			(7) Microsoft RSA TLS CA 01
+|			(6) r.bing.com
+|			(3) Microsoft Azure TLS Issuing CA 06
+|			(3) assets.msn.com
+|			(2) msgapi.teams.microsoft.com
+|			(2) msgapi.teams.live.com
+|			(2) Microsoft Azure TLS Issuing CA 05
+|			(2) Microsoft Azure TLS Issuing CA 02
+|			(1) *.msn.com
+|			(1) a248.e.akamai.net
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) presence.skype.com
+|	   >>>CallAudio
+|			(54) *.events.data.microsoft.com
+|			(42) Microsoft Azure TLS Issuing CA 01
+|			(30) Microsoft RSA TLS CA 02
+|			(20) *.flightproxy.teams.microsoft.com
+|			(19) Microsoft Azure TLS Issuing CA 02
+|			(9) loki.delve.office.com
+|			(5) *.flightproxy.skype.com
+|			(4) cdn.aiinfrastructure.teams.microsoft.com
+|			(4) Microsoft Azure TLS Issuing CA 05
+|			(3) Microsoft Azure TLS Issuing CA 06
+|			(3) *.msedge.net
+|			(2) presence.teams.microsoft.com
+|			(1) teams.microsoft.com
+|			(1) Microsoft Secure Server CA 2011
+|			(1) config.officeapps.live.com
+|			(1) *.mwbsys.com
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) outlook.com
+|			(1) DigiCert Cloud Services CA-1
+|	   >>>CallVideo
+|			(33) Microsoft Azure TLS Issuing CA 01
+|			(30) *.events.data.microsoft.com
+|			(27) Microsoft RSA TLS CA 02
+|			(15) *.flightproxy.teams.microsoft.com
+|			(8) cdn.aiinfrastructure.teams.microsoft.com
+|			(7) loki.delve.office.com
+|			(6) Microsoft Azure TLS Issuing CA 05
+|			(5) presence.teams.microsoft.com
+|			(4) *.flightproxy.skype.com
+|			(4) Microsoft Azure TLS Issuing CA 02
+|			(2) Microsoft Azure TLS Issuing CA 06
+|			(2) *.msedge.net
+|			(1) csp.microsoft.com
+|			(1) DigiCert TLS RSA SHA256 2020 CA1
+|			(1) *.prod.do.dsp.mp.microsoft.com
+|			(1) Microsoft ECC Content Distribution Secure Server CA 2.1
+|			(1) login.live.com
+|			(1) DigiCert SHA2 Secure Server CA
+|			(1) arc.msn.com
 |	All the cipher used> 
-|		(63) TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-|		(24) TLS_DH_anon_WITH_RC4_128_MD5
+|		(211) TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+|		(111) TLS_DH_anon_WITH_RC4_128_MD5
+|		(17) TLS_AES_256_GCM_SHA384
+|		(2) TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+|		(1) TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+|		(1) TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+|	Mean TTL : 408 days, 11:30:50
 |
 ------------------ END SUMMARY ------------------

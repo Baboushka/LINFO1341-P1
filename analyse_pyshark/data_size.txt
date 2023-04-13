@@ -1,0 +1,41 @@
+{'Message': 
+    {'WiFi': 
+        {'K1MW.pcapng': 1055.2326389946793, 
+        'K2MW.pcapng': 1643.6034937786828, 
+        'K3MW.pcapng': 665.9030110416154, 
+        'K4MWB.pcapng': 906.4812590784666, 
+        'Q1MW.pcapng': 20631.93498035924, 
+        'Q3MW.pcapng': 690.1535853865522, 
+        'Q4MWB.pcapng': 32536.786412401794}, 
+    'Ethernet': 
+        {'K1ME.pcapng': 1470.680266271064, 
+        'K2ME.pcapng': 877.9794853132995, 
+        'K3MEB.pcapng': 10739.900187021374}, 
+    '4G': {'K1MG.pcapng': 1939.9901464852478, 
+        'K2MG.pcapng': 516.8020747894167, 
+        'K3MG.pcapng': 9087.08523536444, 
+        'K4MG.pcapng': 3968.6703187292856}}, 
+'CallAudio': 
+    {'WiFi': 
+        {'K1AW-60sec.pcapng': 11778.909949370463, 
+        'K2AW-60sec.pcapng': 12329.291841594417}, 
+    'Ethernet': 
+        {'K1AE-60sec.pcapng': 12949.30437379866, 
+        'K2AE-60sec.pcapng': 17979.25965035807, 
+        'K3AE-60sec.pcapng': 12513.215176267175}, 
+    '4G': 
+        {'K2AG-60sec.pcapng': 13997.705821357302, 
+        'K3AG-60sec.pcapng': 13631.208044918756, 
+        'K4AG-60sec.pcapng': 9446.225522911147}}, 
+'CallVideo': 
+    {'WiFi': 
+        {'K1VW-60sec.pcapng': 208317.4844408616, 
+        'K2VW-60sec.pcapng': 273550.27881251456}, 
+    'Ethernet': 
+        {'K1VE-60sec.pcapng': 248944.00919657268, 
+        'K2VE-60sec.pcapng': 308097.4580735393, 
+        'K3VE-60sec.pcapng': 321495.2706824754}, 
+    '4G': 
+        {'K1VG-60sec.pcapng': 104892.68823487412, 
+        'K2VG-60sec.pcapng': 147649.54972570104, 
+        'K3VG-60sec.pcapng': 18648.5824518649}}}

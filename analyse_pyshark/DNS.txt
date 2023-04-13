@@ -1,45 +1,52 @@
 ------------------ Message - WiFi ------------------
 
-> filename: messagevvwifi.pcapng
-	- (2)  teams.microsoft.com
-		 -type:AAAA A -port:61968
+> filename: K1MW.pcapng
 	- (2)  emea.ng.msg.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:62641
-Summary : resolved: 4, add. RR: 0, type:A : 2 type:AAAA : 2 
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:58839
+Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
 
-> filename: MessageVVWiFi_Kacper.pcapng
+> filename: K2MW.pcapng
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:54489
+Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
+
+> filename: K3MW.pcapng
+	- (2)  ctldl.windowsupdate.com
+		 -type:A AAAA -port:53119
+Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
+
+> filename: K4MWB.pcapng
 	- (2)  wpad.home
 		 -type:A AAAA  -error:No such name (3) -port:51433
 Summary : resolved: 0, add. RR: 0, type:A : 0 type:AAAA : 0 
 
-> filename: messagewifi.pcapng
+> filename: Q1MW.pcapng
 	- (2)  api.msn.com
 		 -type:A AAAA -SOA:ns1.a-msedge.net -port:65236
 	- (2)  assets.msn.com
 		 -type:A AAAA -SOA:n0d.akamaiedge.net -port:60148
 Summary : resolved: 4, add. RR: 0, type:A : 2 type:AAAA : 2 
 
-> filename: MessageWifi2_Kacper.pcapng
-	- (2)  eu-teams.events.data.microsoft.com
-		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:54489
-Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
-
-> filename: messagewifi3.pcapng
+> filename: Q3MW.pcapng
 Summary : resolved: 0, add. RR: 0, type:A : 0 type:AAAA : 0 
 
-> filename: MessageWifi3_Kacper.pcapng
-	- (2)  ctldl.windowsupdate.com
-		 -type:A AAAA -port:53119
-Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
-
-> filename: MessageWiFi_Kacper.pcapng
+> filename: Q4MWB.pcapng
+	- (2)  teams.microsoft.com
+		 -type:AAAA A -port:61968
 	- (2)  emea.ng.msg.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:58839
-Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:62641
+Summary : resolved: 4, add. RR: 0, type:A : 2 type:AAAA : 2 
 
 ------------------ Message - Ethernet ------------------
 
-> filename: MessageEthernet2_Kacper.pcapng
+> filename: K1ME.pcapng
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:63562
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:58080
+Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
+
+> filename: K2ME.pcapng
 	- (2)  ocsp.entrust.net
 		 -type:A AAAA -port:58107
 	- (2)  x1.c.lencr.org
@@ -48,80 +55,86 @@ Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1
 		 -type:A AAAA -port:57336
 Summary : resolved: 6, add. RR: 0, type:A : 3 type:AAAA : 3 
 
-> filename: MessageEthernet_Kacper.pcapng
-	- (2)  wpad.home
-		 -type:A AAAA  -error:No such name (3) -port:63562
-	- (2)  eu-teams.events.data.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:58080
-Summary : resolved: 2, add. RR: 0, type:A : 1 type:AAAA : 1 
-
-> filename: MessageVVEthernet_Kacper.pcapng
+> filename: K3MEB.pcapng
 	- (2)  wpad.home
 		 -type:A AAAA  -error:No such name (3) -port:62986
 Summary : resolved: 0, add. RR: 0, type:A : 0 type:AAAA : 0 
 
+------------------ Message - 4G ------------------
+
+> filename: K1MG.pcapng
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:50750
+Summary : resolved: 1, add. RR: 0, type:A : 1 type:AAAA : 0 
+
+> filename: K2MG.pcapng
+	- (1)  presence.teams.live.com
+		 -type:A -port:55269
+Summary : resolved: 1, add. RR: 0, type:A : 1 type:AAAA : 0 
+
+> filename: K3MG.pcapng
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:56994
+	- (1)  msgapi.teams.live.com
+		 -type:A -port:62037
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:63182
+Summary : resolved: 3, add. RR: 0, type:A : 3 type:AAAA : 0 
+
+> filename: K4MG.pcapng
+	- (1)  download.windowsupdate.com
+		 -type:A -port:62239
+	- (1)  sirius.mwbsys.com
+		 -type:A -port:59165
+	- (1)  msgapi.teams.live.com
+		 -type:A -port:63068
+Summary : resolved: 3, add. RR: 0, type:A : 3 type:AAAA : 0 
+
 ------------------ CallAudio - WiFi ------------------
 
-> filename: AudioTerminatedWifi_Kacper.pcapng
-	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53275
-	- (2)  emea.cc.skype.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61300
-	- (2)  api.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63565
+> filename: K1AW.pcapng
 	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:54314
-	- (1)  ipv4only.arpa
-		 -type:AAAA -SOA:sns.dns.icann.org -port:64816
-	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51535
-	- (4)  eu-mobile.events.data.microsoft.com
-		 -type:A AAAA AAAA A -SOA:ns1-201.azure-dns.com -port:65098
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:AAAA A -port:62784
-Summary : resolved: 17, add. RR: 0, type:A : 8 type:AAAA : 9 
-
-> filename: audiowifi.pcapng
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50303
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55568
-	- (3)  emea.cc.skype.com
-		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:60375
-	- (2)  api.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49893
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52421
-	- (1)  ipv4only.arpa
-		 -type:AAAA -SOA:sns.dns.icann.org -port:57248
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50151
 	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59773
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61377
 	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:A AAAA -port:62936
+		 -type:AAAA A -port:56588
 	- (2)  eu-mobile.events.data.microsoft.com
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com -port:59636
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:64144
 	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:59706
-Summary : resolved: 16, add. RR: 0, type:A : 7 type:AAAA : 9 
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:63901
+Summary : resolved: 10, add. RR: 0, type:A : 5 type:AAAA : 5 
 
-> filename: audiowifi2.pcapng
-	- (3)  euaz.relay.teams.microsoft.com
-		 -type:AAAA A A -SOA:ns1-07.azure-dns.com -port:62102
+> filename: K2AW-60sec.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51128
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:62730
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:60237
 	- (2)  api.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54408
-	- (2)  emea.presence.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:62476
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57082
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:59853
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:65436
 	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50298
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61193
 	- (4)  eu-mobile.events.data.microsoft.com
-		 -type:A AAAA AAAA A -SOA:ns1-201.azure-dns.com -port:50171
+		 -type:A AAAA A AAAA -SOA:ns1-201.azure-dns.com -port:61087
+	- (2)  res-1.cdn.office.net
+		 -type:A AAAA -port:55450
+	- (2)  teams.microsoft.com
+		 -type:A AAAA -port:54294
+	- (2)  eur.loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64780
+	- (2)  tlu.dl.delivery.mp.microsoft.com
+		 -type:A AAAA -port:58191
 	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:55425
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:AAAA A -port:63789
-Summary : resolved: 17, add. RR: 0, type:A : 9 type:AAAA : 8 
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:50891
+Summary : resolved: 23, add. RR: 0, type:A : 11 type:AAAA : 12 
 
-> filename: AudioWifi2_Kacper.pcapng
+> filename: K2AW.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
 		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:53702
 	- (2)  emea.cc.skype.com
@@ -142,22 +155,77 @@ Summary : resolved: 17, add. RR: 0, type:A : 9 type:AAAA : 8
 		 -type:AAAA A -port:65070
 Summary : resolved: 16, add. RR: 0, type:A : 8 type:AAAA : 8 
 
-> filename: AudioWiFi_Kacper.pcapng
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50303
+> filename: K3AW-LeaveBeforeResponse.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50151
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53275
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61300
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63565
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:54314
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:64816
 	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61377
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51535
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA A -SOA:ns1-201.azure-dns.com -port:65098
 	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:AAAA A -port:56588
-	- (2)  eu-mobile.events.data.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:64144
-	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:63901
-Summary : resolved: 10, add. RR: 0, type:A : 5 type:AAAA : 5 
+		 -type:AAAA A -port:62784
+Summary : resolved: 17, add. RR: 0, type:A : 8 type:AAAA : 9 
 
-> filename: missedcallwifi.pcapng
+> filename: K4AW-MissedCall.pcapng
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:63230
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49784
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53777
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:58500
+Summary : resolved: 8, add. RR: 0, type:A : 4 type:AAAA : 4 
+
+> filename: Q1AW.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55568
+	- (3)  emea.cc.skype.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:60375
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49893
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52421
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:57248
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59773
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:A AAAA -port:62936
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com -port:59636
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:59706
+Summary : resolved: 16, add. RR: 0, type:A : 7 type:AAAA : 9 
+
+> filename: Q2AW.pcapng
+	- (3)  euaz.relay.teams.microsoft.com
+		 -type:AAAA A A -SOA:ns1-07.azure-dns.com -port:62102
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51128
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54408
+	- (2)  emea.presence.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:62476
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50298
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA A -SOA:ns1-201.azure-dns.com -port:50171
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:55425
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:63789
+Summary : resolved: 17, add. RR: 0, type:A : 9 type:AAAA : 8 
+
+> filename: Q4AW-MissedCall.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
 		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:54317
 	- (4)  emea.cc.skype.com
@@ -178,20 +246,70 @@ Summary : resolved: 10, add. RR: 0, type:A : 5 type:AAAA : 5
 		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52718
 Summary : resolved: 21, add. RR: 0, type:A : 11 type:AAAA : 10 
 
-> filename: MissedCallWiFi_Kacper.pcapng
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:63230
-	- (2)  api.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49784
-	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53777
-	- (2)  eu-mobile.events.data.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:58500
-Summary : resolved: 8, add. RR: 0, type:A : 4 type:AAAA : 4 
-
 ------------------ CallAudio - Ethernet ------------------
 
-> filename: AudioCallEthernet2_Kacper.pcapng
+> filename: K1AE-60sec.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54268
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:60183
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52437
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59563
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:57263
+	- (4)  wpad.home
+		 -type:A AAAA A AAAA  -error:No such name (3) -port:50831
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63953
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50209
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:64567
+Summary : resolved: 13, add. RR: 0, type:A : 6 type:AAAA : 7 
+
+> filename: K1AE.pcapng
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com -port:53836
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:60944
+	- (2)  presence.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:63476
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57852
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -port:60686
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:A AAAA -port:51829
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52145
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:52265
+Summary : resolved: 12, add. RR: 0, type:A : 6 type:AAAA : 6 
+
+> filename: K2AE-60sec.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:50190
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57737
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:58259
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:53350
+	- (3)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:49160
+	- (2)  v10.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-02.azure-dns.com -port:50930
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:64441
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:51529
+	- (3)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:54471
+Summary : resolved: 14, add. RR: 0, type:A : 6 type:AAAA : 8 
+
+> filename: K2AE.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
 		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57539
 	- (2)  emea.cc.skype.com
@@ -212,26 +330,26 @@ Summary : resolved: 8, add. RR: 0, type:A : 4 type:AAAA : 4
 		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:54786
 Summary : resolved: 19, add. RR: 0, type:A : 9 type:AAAA : 10 
 
-> filename: AudioCallEthernet_Kacper.pcapng
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com -port:53836
+> filename: K3AE-60sec.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:60944
-	- (2)  presence.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:63476
-	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57852
-	- (2)  eu-mobile.events.data.microsoft.com
-		 -type:AAAA A -port:60686
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:A AAAA -port:51829
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:50502
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64756
+	- (3)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:63741
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:50821
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:55173
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54658
+	- (3)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A A -SOA:ns1-201.azure-dns.com -port:51851
 	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52145
-	- (2)  wpad.home
-		 -type:A AAAA  -error:No such name (3) -port:52265
-Summary : resolved: 12, add. RR: 0, type:A : 6 type:AAAA : 6 
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52547
+Summary : resolved: 15, add. RR: 0, type:A : 7 type:AAAA : 8 
 
-> filename: MissedCall_Kacper.pcapng
+> filename: K3AE-MissedCall.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
 		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:52978
 	- (2)  emea.cc.skype.com
@@ -250,63 +368,161 @@ Summary : resolved: 12, add. RR: 0, type:A : 6 type:AAAA : 6
 		 -type:AAAA A A AAAA -SOA:ns1-201.azure-dns.com -port:56385
 Summary : resolved: 17, add. RR: 0, type:A : 7 type:AAAA : 10 
 
+------------------ CallAudio - 4G ------------------
+
+> filename: K1AG.pcapng
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:49269
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:62972
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63979
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:59809
+	- (1)  api.flightproxy.skype.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:55072
+	- (1)  eu-teams.events.data.microsoft.com
+		 -type:A -port:59548
+	- (1)  svc.ha-teams.office.com
+		 -type:A -port:54253
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:53490
+	- (1)  teams.nel.measure.office.net
+		 -type:A -port:61508
+Summary : resolved: 12, add. RR: 0, type:A : 7 type:AAAA : 5 
+
+> filename: K2AG-60sec.pcapng
+	- (1)  eu-teams.events.data.microsoft.com
+		 -type:A -port:50538
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63618
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:tm1.dns-tm.com -port:59318
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59908
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:64439
+	- (1)  api.flightproxy.skype.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:58343
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:54040
+	- (1)  officeclient.microsoft.com
+		 -type:A -port:50612
+	- (1)  ecs.office.com
+		 -type:A -port:58134
+	- (1)  teams.nel.measure.office.net
+		 -type:A -port:49450
+	- (1)  telemetry.malwarebytes.com
+		 -type:A -port:58245
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:59502
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:58538
+Summary : resolved: 17, add. RR: 0, type:A : 11 type:AAAA : 6 
+
+> filename: K3AG-60sec.pcapng
+	- (1)  svc.ha-teams.office.com
+		 -type:A -port:55066
+	- (1)  eu-teams.events.data.microsoft.com
+		 -type:A -port:60716
+	- (1)  api-emea.flightproxy.teams.microsoft.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:51820
+	- (1)  api.flightproxy.teams.microsoft.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:63534
+	- (1)  emea.cc.skype.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:55662
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:54798
+	- (1)  api.flightproxy.skype.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:60282
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:65141
+	- (1)  teams.nel.measure.office.net
+		 -type:A -port:54840
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:54670
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63934
+Summary : resolved: 12, add. RR: 0, type:A : 6 type:AAAA : 6 
+
+> filename: K4AG-60sec.pcapng
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50339
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54036
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:62053
+	- (1)  beaz.tr.skype.com
+		 -type:A -port:49584
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:62401
+	- (3)  api.flightproxy.skype.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:51192
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:62379
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:54526
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49886
+Summary : resolved: 15, add. RR: 0, type:A : 8 type:AAAA : 7 
+
 ------------------ CallVideo - WiFi ------------------
 
-> filename: videocallwifi.pcapng
-	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61610
-	- (4)  eu-mobile.events.data.microsoft.com
-		 -type:A AAAA AAAA A -SOA:ns1-08.azure-dns.com -port:64390
+> filename: K1VW-60sec.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:56519
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:52826
 	- (2)  emea.cc.skype.com
-		 -type:A AAAA -SOA:tm1.dns-tm.com -port:64767
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:49220
 	- (2)  api.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51847
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64937
 	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52313
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:65332
 	- (1)  ipv4only.arpa
-		 -type:AAAA -SOA:sns.dns.icann.org -port:53362
-	- (2)  teams.microsoft.com
-		 -type:A AAAA -port:56219
-	- (2)  login.microsoftonline.com
-		 -type:A AAAA -SOA:tm1.dns-tm.com -port:61493
-	- (2)  substrate.office.com
-		 -type:A AAAA -port:49232
-	- (2)  presence.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:53166
-	- (2)  eu-teams.events.data.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50666
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:A AAAA -port:61804
-	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:49809
-	- (2)  eur.loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64603
-Summary : resolved: 29, add. RR: 0, type:A : 14 type:AAAA : 15 
-
-> filename: videocallwifi2.pcapng
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-07.azure-dns.com -port:62272
-	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:61071
+		 -type:AAAA -port:58889
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:60246
 	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59174
-	- (5)  eu-mobile.events.data.microsoft.com
-		 -type:A AAAA AAAA A AAAA -SOA:ns1-201.azure-dns.com -port:57613
-	- (3)  presence.teams.microsoft.com
-		 -type:A AAAA AAAA -SOA:ns1-06.azure-dns.com -port:53272
-	- (4)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:A AAAA A AAAA -port:62342
-	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:51077
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63311
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA A -SOA:ns1-06.azure-dns.com -port:62665
+	- (2)  presence.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:52706
+	- (2)  csp.microsoft.com
+		 -type:A AAAA -port:51783
 	- (2)  eu-teams.events.data.microsoft.com
-		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:54465
-	- (3)  login.live.com
-		 -type:A AAAA A -port:55417
-Summary : resolved: 23, add. RR: 0, type:A : 11 type:AAAA : 12 
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51358
+	- (2)  array614.prod.do.dsp.mp.microsoft.com
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:60120
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:A AAAA -port:50108
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52791
+Summary : resolved: 25, add. RR: 0, type:A : 12 type:AAAA : 13 
 
-> filename: VideoCallWiFi2_Kacper.pcapng
+> filename: K2VW-60sec.pcapng
+	- (4)  api-emea.flightproxy.teams.microsoft.com
+		 -type:AAAA A A AAAA -SOA:ns1-201.azure-dns.com -port:56919
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54372
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61380
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59325
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:61327
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59541
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA A -SOA:ns1-06.azure-dns.com -port:58158
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:65510
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:64202
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:51976
+Summary : resolved: 21, add. RR: 0, type:A : 10 type:AAAA : 11 
+
+> filename: K2VW.pcapng
 	- (4)  api-emea.flightproxy.teams.microsoft.com
 		 -type:AAAA A A A -SOA:ns1-201.azure-dns.com -port:59784
 	- (2)  emea.cc.skype.com
@@ -327,30 +543,99 @@ Summary : resolved: 23, add. RR: 0, type:A : 11 type:AAAA : 12
 		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:52149
 Summary : resolved: 18, add. RR: 0, type:A : 10 type:AAAA : 8 
 
-> filename: VideoCallWiFi_Kacper.pcapng
+> filename: Q2VW.pcapng
 	- (2)  euaz.relay.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-07.azure-dns.com -port:63672
+		 -type:AAAA A -SOA:ns1-07.azure-dns.com -port:62272
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55472
-	- (2)  teams.microsoft.com
-		 -type:A AAAA -port:55556
-	- (2)  substrate.office.com
-		 -type:A AAAA -port:51010
-	- (2)  presence.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55794
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:61071
 	- (2)  loki.delve.office.com
-		 -type:AAAA A -port:58465
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:AAAA A -port:54523
-	- (2)  eu-mobile.events.data.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:65284
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:59174
+	- (5)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA A AAAA -SOA:ns1-201.azure-dns.com -port:57613
+	- (3)  presence.teams.microsoft.com
+		 -type:A AAAA AAAA -SOA:ns1-06.azure-dns.com -port:53272
+	- (4)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:A AAAA A AAAA -port:62342
 	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:60919
-Summary : resolved: 16, add. RR: 0, type:A : 8 type:AAAA : 8 
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:51077
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com -port:54465
+	- (3)  login.live.com
+		 -type:A AAAA A -port:55417
+Summary : resolved: 23, add. RR: 0, type:A : 11 type:AAAA : 12 
 
 ------------------ CallVideo - Ethernet ------------------
 
-> filename: VideoCallEthernet2_Kacper.pcapng
+> filename: K1VE-60sec.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54972
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:63548
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54301
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54400
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:62422
+	- (2)  presence.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:49761
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53321
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A AAAA A -SOA:ns1-201.azure-dns.com -port:52428
+	- (6)  wpad.home
+		 -type:A AAAA A AAAA A AAAA  -error:No such name (3) -port:62217
+	- (2)  eu-teams.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:56653
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:54010
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:63248
+Summary : resolved: 21, add. RR: 0, type:A : 10 type:AAAA : 11 
+
+> filename: K1VE.pcapng
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:65401
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57466
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64683
+	- (2)  presence.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:61134
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54036
+	- (4)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA A AAAA -SOA:ns1-201.azure-dns.com -port:49695
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:63558
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:63721
+Summary : resolved: 14, add. RR: 0, type:A : 7 type:AAAA : 7 
+
+> filename: K2VE-60sec.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:63368
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55645
+	- (3)  api.flightproxy.teams.microsoft.com
+		 -type:AAAA A A -SOA:ns1-201.azure-dns.com -port:65152
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:50046
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:54280
+	- (2)  loki.delve.office.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55191
+	- (2)  wpad.home
+		 -type:A AAAA  -error:No such name (3) -port:51617
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:56726
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com -port:50801
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:54565
+Summary : resolved: 16, add. RR: 0, type:A : 8 type:AAAA : 8 
+
+> filename: K2VE.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
 		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61413
 	- (2)  emea.cc.skype.com
@@ -371,7 +656,26 @@ Summary : resolved: 16, add. RR: 0, type:A : 8 type:AAAA : 8
 		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:55977
 Summary : resolved: 15, add. RR: 0, type:A : 7 type:AAAA : 8 
 
-> filename: VideoCallEthernet3_Kacper.pcapng
+> filename: K3VE-60sec.pcapng
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:57899
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:tm1.dns-tm.com -port:50174
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52912
+	- (2)  euaz.relay.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:51935
+	- (1)  ipv4only.arpa
+		 -type:AAAA -port:55864
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:51614
+	- (2)  ic3aimgmtprod.azureedge.net
+		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:56085
+	- (2)  cdn.aiinfrastructure.teams.microsoft.com
+		 -type:AAAA A -port:58426
+Summary : resolved: 13, add. RR: 0, type:A : 6 type:AAAA : 7 
+
+> filename: K3VE.pcapng
 	- (2)  euaz.relay.teams.microsoft.com
 		 -type:A AAAA -SOA:ns1-07.azure-dns.com -port:59229
 	- (2)  api-emea.flightproxy.teams.microsoft.com
@@ -384,104 +688,214 @@ Summary : resolved: 15, add. RR: 0, type:A : 7 type:AAAA : 8
 		 -type:A AAAA -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:53729
 Summary : resolved: 12, add. RR: 0, type:A : 6 type:AAAA : 6 
 
-> filename: VideoCallEthernet_Kacper.pcapng
-	- (2)  wpad.home
-		 -type:A AAAA  -error:No such name (3) -port:65401
-	- (2)  euaz.relay.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:57466
+------------------ CallVideo - 4G ------------------
+
+> filename: K1VG-60sec.pcapng
 	- (2)  api-emea.flightproxy.teams.microsoft.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64683
-	- (2)  presence.teams.microsoft.com
-		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:61134
-	- (2)  loki.delve.office.com
-		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:54036
-	- (4)  eu-mobile.events.data.microsoft.com
-		 -type:A AAAA A AAAA -SOA:ns1-201.azure-dns.com -port:49695
-	- (2)  cdn.aiinfrastructure.teams.microsoft.com
-		 -type:AAAA A -port:63558
-	- (2)  ic3aimgmtprod.azureedge.net
-		 -type:AAAA A -SOA:ns1-06.azure-dns.com  -error:No such name (3) -port:63721
-Summary : resolved: 14, add. RR: 0, type:A : 7 type:AAAA : 7 
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:64891
+	- (3)  emea.cc.skype.com
+		 -type:A AAAA A -SOA:ns1-201.azure-dns.com -port:51396
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:AAAA A -SOA:ns1-201.azure-dns.com -port:51954
+	- (1)  beaz.tr.skype.com
+		 -type:A -port:53728
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:57556
+	- (2)  api.flightproxy.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53001
+	- (1)  statics.teams.cdn.office.net
+		 -type:A -port:62993
+	- (1)  presence.teams.microsoft.com
+		 -type:A -port:52529
+	- (3)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:53493
+Summary : resolved: 16, add. RR: 0, type:A : 9 type:AAAA : 7 
+
+> filename: K2VG-60sec.pcapng
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:63576
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52463
+	- (2)  emea.cc.skype.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:61505
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55529
+	- (1)  api3.cc.skype.com
+		 -type:A -port:64522
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:64601
+	- (1)  beaz.tr.skype.com
+		 -type:A -port:53704
+	- (3)  api.flightproxy.skype.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:52154
+	- (1)  teams.nel.measure.office.net
+		 -type:A -port:61930
+	- (1)  arc.msn.com
+		 -type:A -port:50665
+	- (1)  ris.api.iris.microsoft.com
+		 -type:A -port:62769
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:61986
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:51116
+Summary : resolved: 19, add. RR: 0, type:A : 12 type:AAAA : 7 
+
+> filename: K3VG-60sec.pcapng
+	- (1)  eu-teams.events.data.microsoft.com
+		 -type:A -port:50507
+	- (1)  s-ring.msedge.net
+		 -type:A -port:53622
+	- (2)  api.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:52496
+	- (2)  api-emea.flightproxy.teams.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:55753
+	- (1)  emea.cc.skype.com
+		 -type:AAAA -SOA:ns1-201.azure-dns.com -port:54973
+	- (1)  ipv4only.arpa
+		 -type:AAAA -SOA:sns.dns.icann.org -port:56904
+	- (3)  api.flightproxy.skype.com
+		 -type:A AAAA AAAA -SOA:ns1-201.azure-dns.com -port:61062
+	- (1)  v10.events.data.microsoft.com
+		 -type:A -port:53308
+	- (1)  teams.events.data.microsoft.com
+		 -type:A -port:64849
+	- (1)  teams.nel.measure.office.net
+		 -type:A -port:52487
+	- (1)  statics.teams.cdn.live.net
+		 -type:A -port:50330
+	- (2)  eu-mobile.events.data.microsoft.com
+		 -type:A AAAA -SOA:ns1-201.azure-dns.com -port:53496
+Summary : resolved: 17, add. RR: 0, type:A : 10 type:AAAA : 7 
 
 ------------------ SUMMARY ------------------
 |
 |	All the SOAs> 
-|		(119) ns1-201.azure-dns.com
+|		(222) ns1-201.azure-dns.com
+|		(18) ns1-06.azure-dns.com
 |		(1) ns1.a-msedge.net
 |		(1) n0d.akamaiedge.net
-|		(9) ns1-06.azure-dns.com
 |		(17) ns1-07.azure-dns.com
-|		(6) sns.dns.icann.org
-|		(3) ns1-08.azure-dns.com
+|		(13) sns.dns.icann.org
+|		(1) ns1-02.azure-dns.com
 |		(2) tm1.dns-tm.com
 |	Additionnal RR count> 0
 |	Domain names in Message>
 |	   >>>WiFi
 |			(4) emea.ng.msg.teams.microsoft.com
-|			(2) teams.microsoft.com
-|			(2) api.msn.com
-|			(2) assets.msn.com
 |			(2) eu-teams.events.data.microsoft.com
 |			(2) ctldl.windowsupdate.com
+|			(2) api.msn.com
+|			(2) assets.msn.com
+|			(2) teams.microsoft.com
 |				Mean of domain names resolved: 2.0
 |	   >>>Ethernet
+|			(2) eu-teams.events.data.microsoft.com
 |			(2) ocsp.entrust.net
 |			(2) x1.c.lencr.org
 |			(2) ctldl.windowsupdate.com
-|			(2) eu-teams.events.data.microsoft.com
 |				Mean of domain names resolved: 2.6666666666666665
+|	   >>>4G
+|			(2) statics.teams.cdn.live.net
+|			(2) msgapi.teams.live.com
+|			(1) presence.teams.live.com
+|			(1) teams.events.data.microsoft.com
+|			(1) download.windowsupdate.com
+|			(1) sirius.mwbsys.com
+|				Mean of domain names resolved: 2.0
 |	Domain names in CallAudio>
 |	   >>>WiFi
-|			(18) eu-mobile.events.data.microsoft.com
-|			(16) api.flightproxy.teams.microsoft.com
-|			(16) euaz.relay.teams.microsoft.com
-|			(14) api-emea.flightproxy.teams.microsoft.com
+|			(22) eu-mobile.events.data.microsoft.com
+|			(18) euaz.relay.teams.microsoft.com
+|			(18) api.flightproxy.teams.microsoft.com
+|			(16) api-emea.flightproxy.teams.microsoft.com
+|			(13) emea.cc.skype.com
+|			(12) loki.delve.office.com
 |			(12) cdn.aiinfrastructure.teams.microsoft.com
-|			(11) emea.cc.skype.com
-|			(10) loki.delve.office.com
-|			(4) ipv4only.arpa
+|			(5) ipv4only.arpa
+|			(2) res-1.cdn.office.net
+|			(2) teams.microsoft.com
+|			(2) eur.loki.delve.office.com
+|			(2) tlu.dl.delivery.mp.microsoft.com
 |			(2) emea.presence.teams.microsoft.com
 |			(2) eu-teams.events.data.microsoft.com
-|				Mean of domain names resolved: 15.0
-|	   >>>Ethernet
-|			(11) eu-mobile.events.data.microsoft.com
-|			(8) cdn.aiinfrastructure.teams.microsoft.com
-|			(7) euaz.relay.teams.microsoft.com
-|			(6) api-emea.flightproxy.teams.microsoft.com
-|			(4) emea.cc.skype.com
-|			(4) api.flightproxy.teams.microsoft.com
-|			(4) loki.delve.office.com
-|			(2) ipv4only.arpa
-|			(2) presence.teams.microsoft.com
 |				Mean of domain names resolved: 16.0
+|	   >>>Ethernet
+|			(18) eu-mobile.events.data.microsoft.com
+|			(14) euaz.relay.teams.microsoft.com
+|			(12) api-emea.flightproxy.teams.microsoft.com
+|			(11) api.flightproxy.teams.microsoft.com
+|			(10) emea.cc.skype.com
+|			(8) cdn.aiinfrastructure.teams.microsoft.com
+|			(5) ipv4only.arpa
+|			(4) eu-teams.events.data.microsoft.com
+|			(4) loki.delve.office.com
+|			(2) presence.teams.microsoft.com
+|			(2) v10.events.data.microsoft.com
+|				Mean of domain names resolved: 15.0
+|	   >>>4G
+|			(7) api.flightproxy.teams.microsoft.com
+|			(7) api-emea.flightproxy.teams.microsoft.com
+|			(7) emea.cc.skype.com
+|			(6) api.flightproxy.skype.com
+|			(6) eu-mobile.events.data.microsoft.com
+|			(4) ipv4only.arpa
+|			(4) teams.events.data.microsoft.com
+|			(3) eu-teams.events.data.microsoft.com
+|			(3) teams.nel.measure.office.net
+|			(3) statics.teams.cdn.live.net
+|			(2) svc.ha-teams.office.com
+|			(1) officeclient.microsoft.com
+|			(1) ecs.office.com
+|			(1) telemetry.malwarebytes.com
+|			(1) beaz.tr.skype.com
+|				Mean of domain names resolved: 14.0
 |	Domain names in CallVideo>
 |	   >>>WiFi
-|			(13) eu-mobile.events.data.microsoft.com
-|			(10) api-emea.flightproxy.teams.microsoft.com
+|			(15) eu-mobile.events.data.microsoft.com
+|			(12) api-emea.flightproxy.teams.microsoft.com
 |			(10) cdn.aiinfrastructure.teams.microsoft.com
-|			(8) loki.delve.office.com
 |			(8) euaz.relay.teams.microsoft.com
-|			(7) presence.teams.microsoft.com
-|			(5) api.flightproxy.teams.microsoft.com
-|			(4) emea.cc.skype.com
-|			(4) teams.microsoft.com
-|			(4) substrate.office.com
-|			(4) eu-teams.events.data.microsoft.com
+|			(8) loki.delve.office.com
+|			(7) api.flightproxy.teams.microsoft.com
+|			(6) emea.cc.skype.com
+|			(6) eu-teams.events.data.microsoft.com
+|			(5) presence.teams.microsoft.com
+|			(3) ipv4only.arpa
 |			(3) login.live.com
-|			(2) ipv4only.arpa
-|			(2) login.microsoftonline.com
-|			(2) eur.loki.delve.office.com
-|				Mean of domain names resolved: 21.5
+|			(2) csp.microsoft.com
+|			(2) array614.prod.do.dsp.mp.microsoft.com
+|				Mean of domain names resolved: 21.75
 |	   >>>Ethernet
-|			(10) eu-mobile.events.data.microsoft.com
-|			(8) cdn.aiinfrastructure.teams.microsoft.com
+|			(18) eu-mobile.events.data.microsoft.com
+|			(14) cdn.aiinfrastructure.teams.microsoft.com
+|			(12) api-emea.flightproxy.teams.microsoft.com
+|			(12) euaz.relay.teams.microsoft.com
+|			(9) api.flightproxy.teams.microsoft.com
+|			(8) emea.cc.skype.com
+|			(8) loki.delve.office.com
+|			(4) ipv4only.arpa
+|			(4) presence.teams.microsoft.com
+|			(2) eu-teams.events.data.microsoft.com
+|				Mean of domain names resolved: 15.166666666666666
+|	   >>>4G
+|			(8) api.flightproxy.skype.com
+|			(7) eu-mobile.events.data.microsoft.com
 |			(6) api-emea.flightproxy.teams.microsoft.com
-|			(6) euaz.relay.teams.microsoft.com
-|			(4) loki.delve.office.com
-|			(2) emea.cc.skype.com
-|			(2) api.flightproxy.teams.microsoft.com
-|			(2) presence.teams.microsoft.com
-|			(1) ipv4only.arpa
-|				Mean of domain names resolved: 13.666666666666666
+|			(6) emea.cc.skype.com
+|			(6) api.flightproxy.teams.microsoft.com
+|			(3) ipv4only.arpa
+|			(2) beaz.tr.skype.com
+|			(2) teams.events.data.microsoft.com
+|			(2) teams.nel.measure.office.net
+|			(2) statics.teams.cdn.live.net
+|			(1) statics.teams.cdn.office.net
+|			(1) presence.teams.microsoft.com
+|			(1) api3.cc.skype.com
+|			(1) arc.msn.com
+|			(1) ris.api.iris.microsoft.com
+|			(1) eu-teams.events.data.microsoft.com
+|			(1) s-ring.msedge.net
+|			(1) v10.events.data.microsoft.com
+|				Mean of domain names resolved: 17.333333333333332
 |
 ------------------ END SUMMARY ------------------

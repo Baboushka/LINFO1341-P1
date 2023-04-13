@@ -23,16 +23,16 @@ def write_format(filename):
 
 summary_soa = dict()
 summary_addRR = 0
-summary_domain = {'Message':{'WiFi':dict(), 'Ethernet':dict()}, 
-                  'CallAudio':{'WiFi':dict(), 'Ethernet':dict()}, 
-                  'CallVideo':{'WiFi':dict(), 'Ethernet':dict()}
+summary_domain = {'Message':{'WiFi':dict(), 'Ethernet':dict(), '4G':dict()}, 
+                  'CallAudio':{'WiFi':dict(), 'Ethernet':dict(), '4G':dict()}, 
+                  'CallVideo':{'WiFi':dict(), 'Ethernet':dict(), '4G':dict()}
                   }
     
                   
 summary_resolved = {'Message':0, 'CallAudio':0, 'CallVideo':0}
 
 for i in ['Message', 'CallAudio', 'CallVideo']:
-    for k in ['WiFi', 'Ethernet']:
+    for k in ['WiFi', 'Ethernet', '4G']:
         with open(file_used, 'a') as f:
             f.write(f'------------------ {i} - {k} ------------------\n\n')
         directory = f'..\{i}\{k}\packets'
