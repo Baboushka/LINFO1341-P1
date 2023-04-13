@@ -1,0 +1,72 @@
+
+Moment de l'envoi de la requête DNS:
+  >Message :
+     >WiFi: 
+	MessagevvWifi_Querol : 
+		- teams.microsoft.com : pile à l'envoi
+		- emea.ng.msg.teams.microsoft.com : pile à l'envoi
+     	MessageWiFi2_Kacper  : 
+		- eu-teams.events.data.microsoft.com : pile à la réception
+	MessageWiFi_Kacper :
+		- emea.ng.msg.teams.microsoft.com : pile à la réception	
+
+     >Ethernet:
+	 MessageEthernet_Kacper: 
+		- eu-teams.events.data.microsoft.com : pile à l'envoi		
+	
+     >4G:  
+	MSG4GKacper : 
+		- statics.teams.cdn.live.net : pile à la réception message
+	MSG4G2Kacper : 
+		- presence.teams.live.com : pile à la réception
+	MSG4G3KCP : 
+		- statics.teams.cdn.live.net : pile à l'envoi
+    		- msgapi.teams.live.com : durant l'envoi
+    		- teams.events.data.microsoft.com : pile à l'envoi
+	MSG4G4 : 
+		- msgapi.teams.live.com : pile après l'envoi
+
+   
+------------------ SUMMARY ------------------
+|
+|	All the SOAs> 
+|		(222) ns1-201.azure-dns.com
+|		(18) ns1-06.azure-dns.com
+|		(1) ns1.a-msedge.net
+|		(1) n0d.akamaiedge.net
+|		(17) ns1-07.azure-dns.com
+|		(13) sns.dns.icann.org
+|		(1) ns1-02.azure-dns.com
+|		(2) tm1.dns-tm.com
+|	Additionnal RR count> 0
+|	Domain names in Message>
+|	   >>>WiFi
+|			(4) emea.ng.msg.teams.microsoft.com
+|			(2) eu-teams.events.data.microsoft.com
+|			(2) ctldl.windowsupdate.com
+|			(2) api.msn.com
+|			(2) assets.msn.com
+|			(2) teams.microsoft.com
+|				Mean of domain names resolved: 2.0
+|	   >>>Ethernet
+|			(2) eu-teams.events.data.microsoft.com
+|			(2) ocsp.entrust.net
+|			(2) x1.c.lencr.org
+|			(2) ctldl.windowsupdate.com
+|				Mean of domain names resolved: 2.6666666666666665
+|	   >>>4G
+|			(2) statics.teams.cdn.live.net
+|			(2) msgapi.teams.live.com
+|			(1) presence.teams.live.com
+|			(1) teams.events.data.microsoft.com
+|			(1) download.windowsupdate.com
+|			(1) sirius.mwbsys.com
+|				Mean of domain names resolved: 2.0
+|
+------------------ END SUMMARY ------------------
+
+
+
+
+
+
